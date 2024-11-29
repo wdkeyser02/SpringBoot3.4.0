@@ -20,7 +20,7 @@ public class HomeController {
 	
 	@GetMapping("/slow")
 	public String getDataSlow() throws InterruptedException {
-		Thread.sleep(10000);
+		Thread.sleep(20000);
 		return "Spring Boot Tutorial - SLOW";
 	}
 	
